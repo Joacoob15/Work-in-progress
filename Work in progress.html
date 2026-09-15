@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Joaquín Badino</title>
+  <style>
+    :root {
+      --bg-color: #0f172a;
+      --card-bg: #1e293b;
+      --accent-color: #38bdf8;
+      --text-primary: #f8fafc;
+      --text-secondary: #94a3b8;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-primary);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+
+    .about-card {
+      background-color: var(--card-bg);
+      max-width: 650px;
+      padding: 2.5rem;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+      border: 1px solid #334155;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-top: 0;
+      margin-bottom: 1.5rem;
+      color: var(--text-primary);
+    }
+
+    .highlight {
+      color: var(--accent-color);
+    }
+
+    p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: var(--text-secondary);
+      margin-bottom: 1.2rem;
+    }
+
+    p strong {
+      color: var(--text-primary);
+    }
+
+    .tags {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 1.5rem;
+    }
+
+    .tag {
+      background-color: rgba(56, 189, 248, 0.1);
+      color: var(--accent-color);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      font-weight: 500;
+      border: 1px solid rgba(56, 189, 248, 0.2);
+    }
+  </style>
+</head>
+<body>
+
+  <section class="about-card">
+    <h1>About <span class="highlight">Me</span></h1>
+    
+    <p>Hi! I'm <strong>Joaquín Badino</strong> (or "Joa").</p>
+    
+    <p>I'm an <strong>aspiring programmer</strong> passionate about building software and growing as a developer.</p>
+    
+    <p>Outside of coding, I enjoy staying active—you'll usually find me training at the gym, running, or going for long walks, always challenging myself with long distances. I consider myself a proactive, sociable, and selective person who values focus and continuous improvement.</p>
+
+    <div class="tags">
+      <span class="tag">Aspiring Developer</span>
+      <span class="tag">Proactive</span>
+      <span class="tag">Long-Distance Runner</span>
+      <span class="tag">Continuous Learner</span>
+    </div>
+  </section>
+
+</body>
+</html>
