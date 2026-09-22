@@ -1,2 +1,5 @@
-[README.txt](https://github.com/user-attachments/files/32265351/README.txt)
-https://github.com/Joacoob15/Work-in-progress/blob/78db84ec99588a2a063d2752a723c07fccf56e42/Work%20in%20progress.html
+Hi! I'm Joaquin Badino (or "Joa").
+
+I´m an aspiring programmer passionate about building software as a devoleper
+
+O0utside of coding, I enjoy staying active, you usually find me training at the gym, runnig or going for long walk, always challengin myself whit long distances. I consider myself a proactrive, sociable, and selective person who values focus ann continuous improvent. 
